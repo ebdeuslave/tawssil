@@ -1,0 +1,325 @@
+{
+	"info": {
+		"_postman_id": "2f259024-4def-44ba-990e-92990457d8b4",
+		"name": "MOBISHIPMENT_API_Partner",
+		"description": "# MobiShipment API\n\n# Authentication\n\nFor authentication all requests' headers should contain the *Authorization* param with the bearer:  \nBearer **JWT_TOKEN** .  \nThe JWT token header:  \n{  \n\"alg\": \"HS256\",  \n\"typ\": \"JWT\",  \n\"partner_id\": yourPartnerId  \n}  \nUse the secret key provided to you to sign the JWT token.  \nThe payload can contain a dummy json or an empty one.\n\n**JWT auth token encoding example:**\n\n``` python\njwt.encode(\n    {\"some\": \"payload\"},\n    \"your secret key\",\n    algorithm=\"HS256\",\n    headers={\n        \"alg\":\"HS256\",\n        \"typ\":\"JWT\",\n        \"partner_id\": yourPartnerId })\n# Your JWT auth token\n'eyJhbGciRtrYzI1NiIsInR567YFGpXVCIsImhhbmRsZXJfaWQiOjg0OTd9.e30.Cn4Q_rKSz76gJixvzWgTepzVuH2QZDHgeSVjKFTfHCI'\n\n```\n\n**Request example**\n\n``` python\nimport requests\nurl = \"https://dev.mobipreshipement.link/api/tracking_colis/\"\npayload={\n    \"partner_id\":PARTNER_ID,\n    \"parcel_reference\":\"yourParcelReference\"}\nheaders = {\n  'Authorization': 'Bearer eyJRty6OiJIUzI1NiIsInRHU56IkpXVCIsImhhbmRsZXJfaWQiOjg0OTd9.e30.Cn4Q_rKSz76gJixvzWgTepzVuH2QZDHgeSVjKFTfHCI',\n  'Content-Type': 'application/json'\n}\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\nprint(response.text)\n\n```\n\n**Setting your credentials in the POSTMAN collection**\n\nIn order to test the API using POSTMAN follow these steps:\n\n*   import the collection in POSTMAN,\n*   right click on the collection, click edit and choose the 'Variables' tab,\n*   change the variables PARTNER_ID with the ones provided to you,\n*   change JWT variable with the one computed using the provided secret key,\n*   save the changes.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13166945"
+	},
+	"item": [
+		{
+			"name": "create_colis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{JWT}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"data\": [\n        {\n            \"picking_address\": {\n                \"city\": 42,\n                \"street\": \"Rue test\",\n                \"street2\": \"Bv dchira\",\n                \"phone\": \"+212300220022\"\n            },\n            \"recipient_address\": {\n                \"city\": 42,\n                \"street\": \"Rue  2\",\n                \"street2\": \"Bv dchiraa\",\n                \"name\": \"Zakarya\",\n                \"phone\": \"+2123002202\"\n            },\n            \"shipment_type\": \"relay_point\",\n            \"cash_on_delivery\": 1000,\n            \"parcel_reference\": \"Cl01\",\n            \"barcode\": \"0001\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/create_colis/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"create_colis",
+						""
+					]
+				},
+				"description": "Creating parcels.\n\nAll fields are mandatory except the fields below:\n\n| Fields | Required/Optional | Default value |\n| --- | --- | --- |\n| street2 | Optional | \\- |\n| partner_barcode | Optional | \\- |\n| parcel_value | Optional | 0 |\n| shipment_type | Optional | home _delivery |\n| cash_on_delivery | Optional | 0 |\n| notes | Optional | \\- |\n\nThe \"parcel_value\" field can have a maximum value of 10000.00."
+			},
+			"response": []
+		},
+		{
+			"name": "create_colis with predefined addresses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{JWT}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"data\": [\n        {\n            \"picking_address\": {\n                \"address_reference\": \"clt0001\"\n            },\n            \"recipient_address\": {\n                \"address_reference\": \"clt002\"\n            },\n            \"shipment_type\": \"relay_point\",\n            \"cash_on_delivery\": 1000,\n            \"parcel_reference\": \"Cl004\",\n            \"barcode\": \"S00011\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/create_colis/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"create_colis",
+						""
+					]
+				},
+				"description": "Creating parcels with predefined addresses.\n\nAll fields are mandatory except the fields below:\n\n| Fields | Required/Optional | Default value |\n| --- | --- | --- |\n| street2 | Optional | \\- |\n| partner_barcode | Optional | \\- |\n| parcel_value | Optional | 0 |\n| shipment_type | Optional | home _delivery |\n| cash_on_delivery | Optional | 0 |\n| notes | Optional | \\- |\n\nThe \"parcel_value\" field can have a maximum value of 10000.00.\n\nYou can also create parcels with \"address_reference\" from an address of a charger or a customer."
+			},
+			"response": []
+		},
+		{
+			"name": "update_colis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{JWT}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"parcel_reference\": \"123812\",\n    \"data\": {\n        \"recipient_phone\": \"+212030003030\",\n        \"recipient_street\": \"rue des pleaides\",\n        \"recipient_street2\": \"bv abdelmoumen\",\n        \"cash_on_delivery\": 66\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/update_colis/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"update_colis",
+						""
+					]
+				},
+				"description": "Updating parcel data.\n\n| Fields | Required/Optional |\n| --- | --- |\n| handler_id | Required |\n| partner_id | Required |\n| parcel_reference | Required |\n\nFor the other fields, minimum one field to modify the address."
+			},
+			"response": []
+		},
+		{
+			"name": "tracking_colis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{JWT}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\":{{PARTNER_ID}},\n    \"parcel_reference\":\"1204\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/tracking_colis/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"tracking_colis",
+						""
+					]
+				},
+				"description": "Get parcel tracking events.\n\nAll fields are mandatory."
+			},
+			"response": []
+		},
+		{
+			"name": "create_address (picking)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{JWT}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"data\": [\n        {\n            \"name\": \"Hassan\",\n            \"address_reference\": \"clt002\",\n            \"street\": \"2 bd qods\",\n            \"city\": 48,\n            \"phone\": \"+212545272594\",\n            \"type\": \"picking\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/create_address/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"create_address",
+						""
+					]
+				},
+				"description": "Create a picking address.\n\nAll fields are mandatory except \"name\" and \"street2\"."
+			},
+			"response": []
+		},
+		{
+			"name": "create_address (delivery)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{JWT}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"data\": [\n        {\n            \"name\": \"Tarik\",\n            \"address_reference\": \"clt0001\",\n            \"street\": \"2 abdel\",\n            \"street2\": \"Sidi maarouf\",\n            \"city\": 42,\n            \"phone\": \"+21224272594\",\n            \"type\": \"delivery\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/create_address/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"create_address",
+						""
+					]
+				},
+				"description": "Create a delivery address.\n\nAll fields are mandatory except \"name\" and \"street2\"."
+			},
+			"response": []
+		},
+		{
+			"name": "get_colis_label",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{JWT}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"parcel_references\": [\n        \"Cl01\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/get_colis_label/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"get_colis_label",
+						""
+					]
+				},
+				"description": "Get parcel label URL (étiquette).\n\nAll fields are mandatory."
+			},
+			"response": []
+		},
+		{
+			"name": "get_rates",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{JWT}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partner_id\": {{PARTNER_ID}},\n    \"picking_city\": 42,\n    \"recipient_city\": 42,\n    \"shipment_type\": \"home_delivery\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/get_rates/",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"get_rates",
+						""
+					]
+				},
+				"description": "Get the rate (price) in DH of a shipment based on picking & delivery cities.\n\nAll fields are mandatory."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "JWT",
+			"value": "Bearer JWT_TOKEN"
+		},
+		{
+			"key": "URL",
+			"value": "https://dev.mobipreshipement.link"
+		},
+		{
+			"key": "PARTNER_ID",
+			"value": "1"
+		}
+	]
+}

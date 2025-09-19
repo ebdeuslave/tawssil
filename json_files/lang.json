@@ -1,0 +1,41 @@
+{
+    "arabic": {
+        "tools": "الأدوات",
+        "update status": "تحديث الحالة",
+        "shortcuts": "الإختصارات",
+        "settings": "الإعدادات",
+        "configure": "إعداد",
+        "reset ui": "إعادة ضبط الواجهة",
+        "package management": "إدارة الحزم",
+        "return of funds": "إرجاع الأموال",
+        "update amount": "تحديث المبلغ",
+        "create package": "إنشاء حزمة",
+        "delivery type": "نوع التسليم",
+        "normal": "عادي",
+        "exchange": "استبدال",
+        "return": "إرجاع",
+        "id/name": "المعرف/الاسم",
+        "amount": "المبلغ",
+        "city": "المدينة",
+        "address": "العنوان",
+        "phone": "الهاتف",
+        "remark": "ملاحظة",
+        "urgent": "مستعجل",
+        "auto": "تلقائي",
+        "manual": "يدوي",
+        "refund": "إضافة استرداد مبلغ",
+        "create": "إنشاء",
+        "total packages": "إجمالي الحزم",
+        "total": "العدد الإجمالي",
+        "ready to print": "جاهز للطباعة",
+        "print labels": "طباعة الملصقات",
+        "IDs (Separate by ',')": "معرفات الحزم مفرقة بالفاصلة"
+        
+    },
+    "english": {
+
+    },
+    "french": {
+
+    }
+}

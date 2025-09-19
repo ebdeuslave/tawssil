@@ -1,0 +1,7 @@
+__pycache__/
+/attachements/
+/json_files/auth
+/labels/
+test.*
+__auth__.py
+*.pdf
