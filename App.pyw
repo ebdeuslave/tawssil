@@ -639,7 +639,7 @@ class TawssilApp(Tk):
                 "delay": "",
                 'name': self.getManualFields()["name"],
                 'address': self.getManualFields()["address"],
-                'city': self.getManualFields()["city"],
+                'city': self.getManualFields()["city"].lower(),
                 'phone1': self.getManualFields()["phone"],
                 'phone2': self.getManualFields()["phone"],
                 'total': int(self.getManualFields()["total"]),
