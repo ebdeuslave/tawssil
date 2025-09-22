@@ -36,7 +36,7 @@ class Payment:
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
-            packagesNumbers = [int(re.sub("[^0-9]", "", packageNumber)) for packageNumber in df["Référence colis"]]
+            packagesNumbers = [re.sub("[^0-9]", "", packageNumber) for packageNumber in df["Référence colis"]]
             
             collectedAmounts = [amount for amount in df["CRBT"] if type(amount) == int]
             
