@@ -1,7 +1,7 @@
 import pandas as pd
 from .HandleJsonFiles import HandleJsonFiles
 from datetime import datetime
-import sys
+import sys, re
 sys.path.append("../Tawssil")
 from configuration import MAX_SHIPPING_FEE, TAX_FEE, TAWSSIL_ID
 from Http.ParaAPI import ParaApi
@@ -30,17 +30,17 @@ class Payment:
         Change shipments status to PAID
         """
         try:
-            df = pd.read_excel(file, skiprows=2)
+            df = pd.read_excel(file)
                 
             self.logs["content"]["TRANSFER_DATE"] = datetime.strptime(df["Transfer date"][0], "%d %B %Y").strftime("%Y-%m-%d")
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
-            packagesNumbers = [packageNumber for packageNumber in df["Tracking Number"] if packageNumber.isnumeric()]
+            packagesNumbers = [int(re.sub("[^0-9]", "", packageNumber)) for packageNumber in df["Référence colis"]]
             
-            collectedAmounts = [amount for amount in df["Transfer Value"] if type(amount) == int]
+            collectedAmounts = [amount for amount in df["CRBT"] if type(amount) == int]
             
-            shippingFees = [shippingFees * TAX_FEE for shippingFees in df["Shipping Fees"] if type(shippingFees) == float or type(shippingFees) == int]
+            shippingFees = [shippingFees * TAX_FEE for shippingFees in df["Frais"] if type(shippingFees) == float or type(shippingFees) == int]
             
             # remove total amounts if exists
             if len(packagesNumbers) < len(collectedAmounts):

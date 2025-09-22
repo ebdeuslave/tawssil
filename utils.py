@@ -61,7 +61,7 @@ def generate_reference() -> str:
     while 1:
         ref = ''.join(str(random.randint(0, 9)) for _ in range(10))
         
-        if ref not in HandleJsonFiles.read("history/shipmentsHistory"):
+        if ref not in HandleJsonFiles.read("history/shipmentsHistory") and not ref.startswith("0"):
             return ref
         
     

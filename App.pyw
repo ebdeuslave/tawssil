@@ -17,7 +17,7 @@ from Core.Checker import Checker
 from Core.Payment import Payment
 from Core.Settings import Settings
 import webbrowser
-# from pushToGithub import autoPush
+from pushToGithub import autoPush
 
 
 class TawssilApp(Tk):
@@ -441,7 +441,7 @@ class TawssilApp(Tk):
                     ws.Beep(500,500)
                     
                     # push to github
-                    # autoPush(".", "backup shipments history")
+                    autoPush(".", "backup shipments history")
                     
                     if set_payment["hasWarning"]:
                         msg.showwarning("Payment Warning", "Check logs")
@@ -473,7 +473,7 @@ class TawssilApp(Tk):
         self.payment_info.config(text=f'Paid: {set_payment["content"]["PAID"]} Colis - {set_payment["content"]["TRANSFERED_AMOUNT"]} Dhs - Date: {set_payment["content"]["TRANSFER_DATE"]}\nNot same price: {set_payment["content"]["NOT_SAME_AMOUNT"]}\nNot found: {set_payment["content"]["NOT_FOUND"]}\nExceed Shipping Fees: {set_payment["content"]["EXCEED_SHIPPING_FEES"]}')
         ws.Beep(500,500)
         # push to github
-        # autoPush(".", "backup shipments history")
+        autoPush(".", "backup shipments history")
         
 
     def updateOrdersStatus(self):
@@ -512,7 +512,7 @@ class TawssilApp(Tk):
             
             self.totalCmdReady.config(text=f"Ready to print: {len(HandleJsonFiles.read(self.json_files['shipmentsNumbers']))}")
             
-            # autoPush(".", "backup shipments history")
+            autoPush(".", "backup shipments history")
 
         else:
             msg.showinfo('Update Status', 'No orders found') 
@@ -676,6 +676,7 @@ class TawssilApp(Tk):
             
             elif response["content"] == "one or many of the cities provided are invalid":
                 msg.showerror("City Error", f"<{order_data['city']}> had lmdina ya imma makinach ya imma mamktobach mzn")
+                webbrowser.open("http://livraison.horscasa:8010/tawssil_cities/")
                 self.stateLabel.config(text=f"invalid city <{order_data['city']}>")
                     
             else:
