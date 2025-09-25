@@ -1,0 +1,2722 @@
+[
+    {
+        "id": 6013075,
+        "name": "Colis/6028346",
+        "barcode": "#8127EA308BB5#",
+        "partner_barcode": "2857669100",
+        "ref_colis": "2857669100",
+        "create_date": "2025-09-24 14:19:04",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "cherifi hayat",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19232,
+            "BERKANE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6013066,
+        "name": "Colis/6028337",
+        "barcode": "#812716E838FA#",
+        "partner_barcode": "9500407846",
+        "ref_colis": "9500407846",
+        "create_date": "2025-09-24 14:18:00",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "client",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 714.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6013005,
+        "name": "Colis/6028275",
+        "barcode": "#8129BB0231B7#",
+        "partner_barcode": "9560451415",
+        "ref_colis": "9560451415",
+        "create_date": "2025-09-24 14:10:01",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "HAMZA AZZOUZI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19433,
+            "SIDI YAHYA AL GHARB"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012995,
+        "name": "Colis/6028265",
+        "barcode": "#812590DD8064#",
+        "partner_barcode": "6165793305",
+        "ref_colis": "6165793305",
+        "create_date": "2025-09-24 14:08:35",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Saada OULAHIANE",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19638,
+            "SIDI EL MOKHTAR​"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 956.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012934,
+        "name": "Colis/6028204",
+        "barcode": "#812AC0CA854E#",
+        "partner_barcode": "1575089491",
+        "ref_colis": "1575089491",
+        "create_date": "2025-09-24 13:59:51",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Zineb Benabderrahman",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19715,
+            "TEMARA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 338.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012927,
+        "name": "Colis/6028197",
+        "barcode": "#812F402AD393#",
+        "partner_barcode": "8848272930",
+        "ref_colis": "8848272930",
+        "create_date": "2025-09-24 13:59:24",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Reda BENCHAMA",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19225,
+            "BEN SLIMAN "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 765.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012924,
+        "name": "Colis/6028194",
+        "barcode": "#812BB7B52DF2#",
+        "partner_barcode": "5472123999",
+        "ref_colis": "5472123999",
+        "create_date": "2025-09-24 13:59:00",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Jalila Elbey",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 335.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012916,
+        "name": "Colis/6028186",
+        "barcode": "#812471DB7655#",
+        "partner_barcode": "5652494217",
+        "ref_colis": "5652494217",
+        "create_date": "2025-09-24 13:58:33",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "aziza anssari",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 330.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012900,
+        "name": "Colis/6028170",
+        "barcode": "#8125C7A5E33A#",
+        "partner_barcode": "5538691001",
+        "ref_colis": "5538691001",
+        "create_date": "2025-09-24 13:56:33",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "souad souad",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19283,
+            "CHEFCHAOUEN"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 235.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012877,
+        "name": "Colis/6028147",
+        "barcode": "#8127947327A3#",
+        "partner_barcode": "9993752378",
+        "ref_colis": "9993752378",
+        "create_date": "2025-09-24 13:54:05",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Madiha Belkhayat ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 338.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012872,
+        "name": "Colis/6028142",
+        "barcode": "#812BDB514081#",
+        "partner_barcode": "1677776228",
+        "ref_colis": "1677776228",
+        "create_date": "2025-09-24 13:53:38",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sara Latif",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 461.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6012858,
+        "name": "Colis/6028128",
+        "barcode": "#812339D405D3#",
+        "partner_barcode": "1511732536",
+        "ref_colis": "1511732536",
+        "create_date": "2025-09-24 13:51:48",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Laila Kouchad",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 310.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012852,
+        "name": "Colis/6028122",
+        "barcode": "#81220D37A6BD#",
+        "partner_barcode": "1781027764",
+        "ref_colis": "1781027764",
+        "create_date": "2025-09-24 13:51:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "YASSINE KEDIHA",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 370.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012851,
+        "name": "Colis/6028121",
+        "barcode": "#8124418A836B#",
+        "partner_barcode": "5094233913",
+        "ref_colis": "5094233913",
+        "create_date": "2025-09-24 13:50:55",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "chaimae chaimae",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19698,
+            "TANGER"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 120.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012849,
+        "name": "Colis/6028119",
+        "barcode": "#812F19C6DE08#",
+        "partner_barcode": "2936921063",
+        "ref_colis": "2936921063",
+        "create_date": "2025-09-24 13:50:33",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Leila  Bengeloun",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19341,
+            "ESSAOUIRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6012847,
+        "name": "Colis/6028117",
+        "barcode": "#812F9F074883#",
+        "partner_barcode": "9160008644",
+        "ref_colis": "9160008644",
+        "create_date": "2025-09-24 13:50:12",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Jawhara Lakhdar",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19597,
+            "SETTAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 270.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6012841,
+        "name": "Colis/6028111",
+        "barcode": "#812D61127EB3#",
+        "partner_barcode": "9574704137",
+        "ref_colis": "9574704137",
+        "create_date": "2025-09-24 13:49:48",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ghizlan  El farjani ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19717,
+            "TETOUAN  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6012837,
+        "name": "Colis/6028107",
+        "barcode": "#812BF1B2F8A5#",
+        "partner_barcode": "5270812316",
+        "ref_colis": "5270812316",
+        "create_date": "2025-09-24 13:49:23",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "hanane edrissi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19802,
+            "TAROUDANTE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 993.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6012830,
+        "name": "Colis/6028100",
+        "barcode": "#8124CC01043F#",
+        "partner_barcode": "2375363436",
+        "ref_colis": "2375363436",
+        "create_date": "2025-09-24 13:48:40",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ZINEB GLAGNI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19430,
+            "KENITRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 176.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6006641,
+        "name": "Colis/6021907",
+        "barcode": "#812E067F9103#",
+        "partner_barcode": "8615743305",
+        "ref_colis": "8615743305",
+        "create_date": "2025-09-23 13:26:17",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Fatiha  ZOUGGARI ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 123.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6006615,
+        "name": "Colis/6021881",
+        "barcode": "#8124EC1C0C4C#",
+        "partner_barcode": "4888735422",
+        "ref_colis": "4888735422",
+        "create_date": "2025-09-23 13:21:58",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "menana el imrany",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19643,
+            "SIDI REDOUANE  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 1191.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Réçu en PR",
+        "return_reason": false
+    },
+    {
+        "id": 6006606,
+        "name": "Colis/6021872",
+        "barcode": "#81213F184C5E#",
+        "partner_barcode": "2652972450",
+        "ref_colis": "2652972450",
+        "create_date": "2025-09-23 13:20:15",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ilham  Ghouizi ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19755,
+            "YOUSOUFIA​"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 315.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "En transport",
+        "return_reason": "Reprogrammation livraison"
+    },
+    {
+        "id": 6006602,
+        "name": "Colis/6021868",
+        "barcode": "#812B4E781611#",
+        "partner_barcode": "8286615316",
+        "ref_colis": "8286615316",
+        "create_date": "2025-09-23 13:19:36",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "bouchaib jadbane",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19644,
+            "ESSMARA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 329.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6006578,
+        "name": "Colis/6021844",
+        "barcode": "#8121780E0D45#",
+        "partner_barcode": "9234962149",
+        "ref_colis": "9234962149",
+        "create_date": "2025-09-23 13:16:42",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Antoine Cellot",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19468,
+            "MASSA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 1662.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6006571,
+        "name": "Colis/6021837",
+        "barcode": "#81297F687635#",
+        "partner_barcode": "6645284580",
+        "ref_colis": "6645284580",
+        "create_date": "2025-09-23 13:16:01",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "hajar tabaa",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19430,
+            "KENITRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6006568,
+        "name": "Colis/6021834",
+        "barcode": "#8120B756DE9B#",
+        "partner_barcode": "9213933932",
+        "ref_colis": "9213933932",
+        "create_date": "2025-09-23 13:15:30",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Fatima ezzahra  MOUALDA ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 155.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6006560,
+        "name": "Colis/6021826",
+        "barcode": "#812C35569167#",
+        "partner_barcode": "3390626855",
+        "ref_colis": "3390626855",
+        "create_date": "2025-09-23 13:15:01",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Leila Ouachouo",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19597,
+            "SETTAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 183.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6006554,
+        "name": "Colis/6021820",
+        "barcode": "#812F9BEFA264#",
+        "partner_barcode": "8070192121",
+        "ref_colis": "8070192121",
+        "create_date": "2025-09-23 13:14:30",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "zakaria dardikh",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 133.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6006548,
+        "name": "Colis/6021814",
+        "barcode": "#812473984F77#",
+        "partner_barcode": "3040052942",
+        "ref_colis": "3040052942",
+        "create_date": "2025-09-23 13:14:04",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Alaoui Ahmed",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19214,
+            "AZROU"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 325.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6006539,
+        "name": "Colis/6021805",
+        "barcode": "#812A55100339#",
+        "partner_barcode": "8004662036",
+        "ref_colis": "8004662036",
+        "create_date": "2025-09-23 13:13:28",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "IBTISSAME  SAMIR",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 805.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6006532,
+        "name": "Colis/6021798",
+        "barcode": "#8125ACA9D0CE#",
+        "partner_barcode": "6919601471",
+        "ref_colis": "6919601471",
+        "create_date": "2025-09-23 13:12:54",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Marion  Aitsahalia ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6005948,
+        "name": "Colis/6021214",
+        "barcode": "#8127AE573E70#",
+        "partner_barcode": "2868937385",
+        "ref_colis": "2868937385",
+        "create_date": "2025-09-23 12:02:29",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ihssan draifi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 368.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6005923,
+        "name": "Colis/6021189",
+        "barcode": "#81287AADC031#",
+        "partner_barcode": "8143870210",
+        "ref_colis": "8143870210",
+        "create_date": "2025-09-23 12:00:12",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "client",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 164.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 6005914,
+        "name": "Colis/6021180",
+        "barcode": "#812786B18963#",
+        "partner_barcode": "6752393972",
+        "ref_colis": "6752393972",
+        "create_date": "2025-09-23 11:59:30",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Khadija ZIZI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 145.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005912,
+        "name": "Colis/6021178",
+        "barcode": "#8124BA4DBCB6#",
+        "partner_barcode": "4827629706",
+        "ref_colis": "4827629706",
+        "create_date": "2025-09-23 11:59:02",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ASMA ZAIDI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 220.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005907,
+        "name": "Colis/6021173",
+        "barcode": "#8121C965A9FF#",
+        "partner_barcode": "9321478322",
+        "ref_colis": "9321478322",
+        "create_date": "2025-09-23 11:58:36",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Khaoula Lagunaoui",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 169.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6005897,
+        "name": "Colis/6021163",
+        "barcode": "#8127C2119FFB#",
+        "partner_barcode": "2109329978",
+        "ref_colis": "2109329978",
+        "create_date": "2025-09-23 11:58:04",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mariam El khrrad",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 368.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005890,
+        "name": "Colis/6021156",
+        "barcode": "#81231A398493#",
+        "partner_barcode": "6599705854",
+        "ref_colis": "6599705854",
+        "create_date": "2025-09-23 11:57:30",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ال S. .. الشارع.",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19781,
+            "SIDI SLIMANE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 294.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6005886,
+        "name": "Colis/6021152",
+        "barcode": "#812541730051#",
+        "partner_barcode": "8124612187",
+        "ref_colis": "8124612187",
+        "create_date": "2025-09-23 11:57:02",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ghita Ait nabou",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19783,
+            "DEROUA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 294.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005881,
+        "name": "Colis/6021147",
+        "barcode": "#812C345D2CE5#",
+        "partner_barcode": "8416157961",
+        "ref_colis": "8416157961",
+        "create_date": "2025-09-23 11:56:37",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "habiba sabi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005875,
+        "name": "Colis/6021141",
+        "barcode": "#8120562FF5E6#",
+        "partner_barcode": "4703350257",
+        "ref_colis": "4703350257",
+        "create_date": "2025-09-23 11:56:13",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Agulame  Yahya ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 206.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005867,
+        "name": "Colis/6021133",
+        "barcode": "#812456858322#",
+        "partner_barcode": "2872774430",
+        "ref_colis": "2872774430",
+        "create_date": "2025-09-23 11:55:40",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nesrine Essairy",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 179.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005848,
+        "name": "Colis/6021114",
+        "barcode": "#8120D21435E0#",
+        "partner_barcode": "8194608462",
+        "ref_colis": "8194608462",
+        "create_date": "2025-09-23 11:54:36",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Douae  Amine ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19805,
+            "EL JADIDA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 368.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005842,
+        "name": "Colis/6021108",
+        "barcode": "#8124A7DD8E65#",
+        "partner_barcode": "8301488895",
+        "ref_colis": "8301488895",
+        "create_date": "2025-09-23 11:53:51",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "fatiha fatiha",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19276,
+            "BOUSKOURA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 220.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6005841,
+        "name": "Colis/6021107",
+        "barcode": "#812A645A37B6#",
+        "partner_barcode": "3446474687",
+        "ref_colis": "3446474687",
+        "create_date": "2025-09-23 11:53:24",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "fatima fatima",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 230.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Reprogrammation livraison"
+    },
+    {
+        "id": 6005835,
+        "name": "Colis/6021101",
+        "barcode": "#812AD8FE5706#",
+        "partner_barcode": "2648487128",
+        "ref_colis": "2648487128",
+        "create_date": "2025-09-23 11:52:49",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ezzahra Fatima",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19401,
+            "INEZGANE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 653.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6005827,
+        "name": "Colis/6021093",
+        "barcode": "#812B69492E39#",
+        "partner_barcode": "6145530923",
+        "ref_colis": "6145530923",
+        "create_date": "2025-09-23 11:52:23",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Wissal Chetioui",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19783,
+            "DEROUA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 183.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 6005823,
+        "name": "Colis/6021089",
+        "barcode": "#812378936AD6#",
+        "partner_barcode": "6640360823",
+        "ref_colis": "6640360823",
+        "create_date": "2025-09-23 11:51:56",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "halima halimaa",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 230.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Refusé par le client"
+    },
+    {
+        "id": 6005807,
+        "name": "Colis/6021073",
+        "barcode": "#812589D4C696#",
+        "partner_barcode": "3875779276",
+        "ref_colis": "3875779276",
+        "create_date": "2025-09-23 11:50:16",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "younes hrizou",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19473,
+            "MEKNES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 330.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Reprogrammation livraison"
+    },
+    {
+        "id": 6000249,
+        "name": "Colis/6015421",
+        "barcode": "#812FD105B921#",
+        "partner_barcode": "5975779531",
+        "ref_colis": "5975779531",
+        "create_date": "2025-09-22 13:49:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Zakia El alami",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 678.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 6000238,
+        "name": "Colis/6015408",
+        "barcode": "#8120BC34F583#",
+        "partner_barcode": "3517849297",
+        "ref_colis": "3517849297",
+        "create_date": "2025-09-22 13:47:56",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "رجاء rajaa",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 718.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Refusé par le client"
+    },
+    {
+        "id": 6000232,
+        "name": "Colis/6015402",
+        "barcode": "#812F2CA326B7#",
+        "partner_barcode": "9509481739",
+        "ref_colis": "9509481739",
+        "create_date": "2025-09-22 13:47:24",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ziane  Abdellatif ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19719,
+            "TIFLET"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 310.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6000220,
+        "name": "Colis/6015390",
+        "barcode": "#81255808565C#",
+        "partner_barcode": "1950639280",
+        "ref_colis": "1950639280",
+        "create_date": "2025-09-22 13:46:43",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Hiba Matran",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19717,
+            "TETOUAN  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 12.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6000193,
+        "name": "Colis/6015360",
+        "barcode": "#812822A9700A#",
+        "partner_barcode": "9067319276",
+        "ref_colis": "9067319276",
+        "create_date": "2025-09-22 13:44:02",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Soukaina Al haddan",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19698,
+            "TANGER"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6000147,
+        "name": "Colis/6015314",
+        "barcode": "#812E1BD77D4E#",
+        "partner_barcode": "6573525818",
+        "ref_colis": "6573525818",
+        "create_date": "2025-09-22 13:40:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Aroma Shop",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5999737,
+        "name": "Colis/6014874",
+        "barcode": "#8125A8B0B381#",
+        "partner_barcode": "6294394652",
+        "ref_colis": "6294394652",
+        "create_date": "2025-09-22 12:56:10",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Fatiha  ZOUGGARI ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 123.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998773,
+        "name": "Colis/6013910",
+        "barcode": "#8126E946C279#",
+        "partner_barcode": "4425683342",
+        "ref_colis": "4425683342",
+        "create_date": "2025-09-22 11:24:18",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "client",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 537.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998628,
+        "name": "Colis/6013765",
+        "barcode": "#81253E546544#",
+        "partner_barcode": "6511970003",
+        "ref_colis": "6511970003",
+        "create_date": "2025-09-22 11:11:45",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Hiba El Abbouni",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19276,
+            "BOUSKOURA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 129.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998624,
+        "name": "Colis/6013761",
+        "barcode": "#8124B1F5D432#",
+        "partner_barcode": "3514629405",
+        "ref_colis": "3514629405",
+        "create_date": "2025-09-22 11:11:12",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nahla  El orchi ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19279,
+            "BOUZNIKA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 524.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998612,
+        "name": "Colis/6013749",
+        "barcode": "#81219A683DCA#",
+        "partner_barcode": "3928591544",
+        "ref_colis": "3928591544",
+        "create_date": "2025-09-22 11:10:22",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sanaa Bouafia",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19698,
+            "TANGER"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 123.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998607,
+        "name": "Colis/6013744",
+        "barcode": "#812F95026417#",
+        "partner_barcode": "5751632636",
+        "ref_colis": "5751632636",
+        "create_date": "2025-09-22 11:09:56",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abdelhamid  Idabdo",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 214.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 5998601,
+        "name": "Colis/6013738",
+        "barcode": "#81205A3465FD#",
+        "partner_barcode": "8998337585",
+        "ref_colis": "8998337585",
+        "create_date": "2025-09-22 11:09:29",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Aicha Moussadik",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19597,
+            "SETTAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998597,
+        "name": "Colis/6013734",
+        "barcode": "#812F90E9B118#",
+        "partner_barcode": "9616220289",
+        "ref_colis": "9616220289",
+        "create_date": "2025-09-22 11:09:08",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mohammed Ellaou",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 653.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": false
+    },
+    {
+        "id": 5998592,
+        "name": "Colis/6013729",
+        "barcode": "#81269BC00484#",
+        "partner_barcode": "2661221237",
+        "ref_colis": "2661221237",
+        "create_date": "2025-09-22 11:08:39",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Yahya Dahmani",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19532,
+            "OUJDA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 153.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998584,
+        "name": "Colis/6013721",
+        "barcode": "#8127B0C1E151#",
+        "partner_barcode": "9837756080",
+        "ref_colis": "9837756080",
+        "create_date": "2025-09-22 11:08:15",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Zaineb Taoudi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 149.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998569,
+        "name": "Colis/6013706",
+        "barcode": "#81293B82FCA9#",
+        "partner_barcode": "1007377594",
+        "ref_colis": "1007377594",
+        "create_date": "2025-09-22 11:07:29",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Catherine  Bellafronto ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998561,
+        "name": "Colis/6013698",
+        "barcode": "#8124AFB899C7#",
+        "partner_barcode": "9784048143",
+        "ref_colis": "9784048143",
+        "create_date": "2025-09-22 11:06:58",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Fatiha Samih",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 200.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 5998557,
+        "name": "Colis/6013694",
+        "barcode": "#812756B7DF6C#",
+        "partner_barcode": "7629051592",
+        "ref_colis": "7629051592",
+        "create_date": "2025-09-22 11:06:27",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Zineb Zynb",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 358.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998529,
+        "name": "Colis/6013666",
+        "barcode": "#812D10BCC187#",
+        "partner_barcode": "8538464848",
+        "ref_colis": "8538464848",
+        "create_date": "2025-09-22 11:03:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Chaima boualil",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 428.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Reprogrammation livraison"
+    },
+    {
+        "id": 5998526,
+        "name": "Colis/6013663",
+        "barcode": "#81208C99A582#",
+        "partner_barcode": "6308288215",
+        "ref_colis": "6308288215",
+        "create_date": "2025-09-22 11:03:00",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Kaoutar Boubkari",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 169.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998523,
+        "name": "Colis/6013660",
+        "barcode": "#812F7460EAA2#",
+        "partner_barcode": "1963508304",
+        "ref_colis": "1963508304",
+        "create_date": "2025-09-22 11:02:29",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mhamdi Nissrine ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 338.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998517,
+        "name": "Colis/6013654",
+        "barcode": "#812417D6AED5#",
+        "partner_barcode": "6436330826",
+        "ref_colis": "6436330826",
+        "create_date": "2025-09-22 11:02:05",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abdanehadi  Youssef",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19715,
+            "TEMARA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 145.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998514,
+        "name": "Colis/6013651",
+        "barcode": "#81296FB5EA29#",
+        "partner_barcode": "6947740706",
+        "ref_colis": "6947740706",
+        "create_date": "2025-09-22 11:01:43",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Malika Kada",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 120.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998509,
+        "name": "Colis/6013646",
+        "barcode": "#8122AD0F158F#",
+        "partner_barcode": "0582322577",
+        "ref_colis": "0582322577",
+        "create_date": "2025-09-22 11:01:19",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Driss Slaoui",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19276,
+            "BOUSKOURA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 125.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998501,
+        "name": "Colis/6013638",
+        "barcode": "#8121A2FD8C06#",
+        "partner_barcode": "9885386510",
+        "ref_colis": "9885386510",
+        "create_date": "2025-09-22 11:00:46",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "driss nizar",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19717,
+            "TETOUAN  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 220.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 5998497,
+        "name": "Colis/6013634",
+        "barcode": "#8121DE68E4A6#",
+        "partner_barcode": "0966607251",
+        "ref_colis": "0966607251",
+        "create_date": "2025-09-22 11:00:23",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ahmed Tq",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19441,
+            "KHOURIBGA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 140.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 5998493,
+        "name": "Colis/6013630",
+        "barcode": "#8121F2AA4ADD#",
+        "partner_barcode": "4086934227",
+        "ref_colis": "4086934227",
+        "create_date": "2025-09-22 10:59:54",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Belkiss Belkiss",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19446,
+            "LAAYOUNE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 135.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5998481,
+        "name": "Colis/6013618",
+        "barcode": "#812026033F3A#",
+        "partner_barcode": "2322758752",
+        "ref_colis": "2322758752",
+        "create_date": "2025-09-22 10:59:19",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Kholoud Fkhar",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 499.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 5998465,
+        "name": "Colis/6013602",
+        "barcode": "#812AA7ADFBB6#",
+        "partner_barcode": "7431618614",
+        "ref_colis": "7431618614",
+        "create_date": "2025-09-22 10:58:04",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abdellah  Abdel",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19430,
+            "KENITRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 148.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 5938305,
+        "name": "Colis/5953107",
+        "barcode": "#8121D3368B89#",
+        "partner_barcode": false,
+        "ref_colis": false,
+        "create_date": "2025-09-10 10:30:31",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "test",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "cancel",
+        "statut": false,
+        "return_reason": false
+    }
+]
