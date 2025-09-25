@@ -1,6 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+from __auth__ import *
 
 
 class Tawssil:
@@ -99,12 +100,12 @@ class Tawssil:
         return packages
             
             
-    def savePackages(self, packages:list, filename="tawssil_packages.json"):
+    def savePackages(self, packages:list, filename="json_files/tawssil/tawssil_packages_backup.json"):
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(packages["list"], f, ensure_ascii=False, indent=4)
         
 
-tawssil = Tawssil("username", "password")
+tawssil = Tawssil(username, password)
 
 packages = tawssil.getPackages()
 
