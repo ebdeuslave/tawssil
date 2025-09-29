@@ -136,6 +136,15 @@ class TawssilAPI:
 
     @classmethod
     def updatePackage(cls, parcel_reference:str, newPackageData:dict):
+        """
+        Allowed fields: 
+            {
+                "recipient_phone": "",
+                "recipient_street": "",
+                "recipient_street2": "",
+                "cash_on_delivery": 0
+            }
+        """
         packageData = {
             "partner_id": PARTNER_ID,
             "parcel_reference": parcel_reference,
