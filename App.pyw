@@ -490,7 +490,7 @@ class TawssilApp(Tk):
                 if "cmd" not in order_id:
                     script_response = PrestashopAPI.updateOrderStatus(store, order_id)
                     self.stateLabel.config(text=script_response)
-                    if 'ERROR' in script_response:
+                    if 'Encours de livraison' not in script_response:
                         failed += 1
                     else:
                         successed += 1

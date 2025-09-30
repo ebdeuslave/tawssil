@@ -32,7 +32,7 @@ if (isset($argv)) {
         echo $argv[1] . '-' .$argv[2] . ' : Encours de livraison' . PHP_EOL;
     }
     catch (PrestaShopWebserviceException $ex) {
-        echo $argv[1] . '-' .$argv[2] . ': ERROR!\n';
+        echo $argv[1] . '-' .$argv[2] . ': ERROR!\n' . $ex;
         } 
     }
 

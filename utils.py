@@ -1,10 +1,6 @@
 import os, shutil, json, random, sys, jwt
 from datetime import datetime
-sys.path.insert(0, '../Tawssil')
 
-
-
-headers = {'Accept': 'application/json', 'Content-Type': 'application/json'}
 
 BASE_DIR = os.getcwd()
 
@@ -88,7 +84,7 @@ def getCityId(cityName):
 
 
 def getTawssilCities():
-    import requests, json
+    import requests
 
     cookies = {
         'messagesUtk': '492550a7ab6944359dc58afeddfd7966',
@@ -112,7 +108,6 @@ def getTawssilCities():
         'sec-fetch-site': 'same-origin',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
         'x-requested-with': 'XMLHttpRequest',
-        # 'cookie': 'messagesUtk=492550a7ab6944359dc58afeddfd7966; session_id=f7b7f83669bdc0411f7e381ef7291d732d93c6f1; frontend_lang=fr_FR; tz=Africa/Casablanca',
     }
 
     json_data = {
@@ -172,3 +167,15 @@ def getTawssilCities():
         json.dump(cities, f, indent=4, ensure_ascii=False)
 
     
+def updateTodayOrdersStatus():
+    from Core.HandleJsonFiles import HandleJsonFiles
+    from Http.PrestashopAPI import PrestashopAPI
+    from datetime import date
+
+    ids = {order["id"]:order["store"] for order in HandleJsonFiles.read("history/shipmentsHistory").values() if order["shipped"] == str(date.today())}
+
+    for id, store in ids.items():
+        
+        result = PrestashopAPI.updateOrderStatus(store, id)
+        
+        print(result)
