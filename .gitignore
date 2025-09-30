@@ -6,3 +6,5 @@ test.*
 __auth__.py
 *.pdf
 exploit.py
+last_end.txt
+tawssil_partners.json

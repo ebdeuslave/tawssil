@@ -21,10 +21,11 @@ class GmailAPI:
                 if result.latestTimestamp() > getLastPaymentDatetime():
                     try:
                         for message in result.messages:
-                            message.downloadAttachment(filename=data["filename"], downloadFolder=downloadFolder)
+                            for attachment in message.attachments:
+                                message.downloadAttachment(attachment, downloadFolder=downloadFolder)
                             os.chdir(downloadFolder)
-                            os.rename(data["filename"], f"{index}-{data['filename']}")
-                            index += 1
+                            # os.rename(attachment, f"{index}-{attachment}")
+                            # index += 1
                             total += 1
 
                     except Exception as exeption:

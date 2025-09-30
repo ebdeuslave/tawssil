@@ -401,9 +401,9 @@ class TawssilApp(Tk):
             emptyDirectory("attachements")
 
             data = {
-                "sender": "tawssil_email",
-                "subject": "subject",
-                "filename": "filename.xlsx",
+                "sender": "wijdane.fares@tawssil.ma",
+                "subject": "état de paiement global.",
+                # "filename": "Parapharmacie-AIH état de paiement MBS global du Mois Septembre.xlsx",
                 "maxResult": 20
             }
 
