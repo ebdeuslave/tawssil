@@ -31,6 +31,10 @@ class Payment:
         """
         try:
             df = pd.read_excel(file)
+            
+            print(df)
+            
+            return
                 
             self.logs["content"]["TRANSFER_DATE"] = datetime.strptime(df["Transfer date"][0], "%d %B %Y").strftime("%Y-%m-%d")
                         
