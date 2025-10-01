@@ -422,7 +422,6 @@ class TawssilApp(Tk):
                     payment = Payment()
                     set_payment = payment.set(file)
                     
-                    return
                     addToLogs(set_payment)
                     
                     if set_payment["hasError"]:
