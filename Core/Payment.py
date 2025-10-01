@@ -31,22 +31,21 @@ class Payment:
         """
         try:
             df = pd.read_excel(file)
-            
-            print(df)
-            
-            return
-                
-            self.logs["content"]["TRANSFER_DATE"] = datetime.strptime(df["Transfer date"][0], "%d %B %Y").strftime("%Y-%m-%d")
+                                                    
+            self.logs["content"]["TRANSFER_DATE"] = df["Date de virement "][0] #datetime.strptime(df["Date de virement"][0], "%d %B %Y").strftime("%Y-%m-%d")
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
-            packagesNumbers = [re.sub("[^0-9]", "", packageNumber) for packageNumber in df["Référence colis"]]
-            
+            packagesNumbers = [str(packageNumber) for packageNumber in df["Référence colis"]]
+
             collectedAmounts = [amount for amount in df["CRBT"] if type(amount) == int]
             
-            shippingFees = [shippingFees * TAX_FEE for shippingFees in df["Frais"] if type(shippingFees) == float or type(shippingFees) == int]
+            for amount in collectedAmounts:
+                if not amount: amount = 0
             
-            # remove total amounts if exists
+            shippingFees = [shippingFees for shippingFees in df["Frais"]]
+            
+            # remove total amounts
             if len(packagesNumbers) < len(collectedAmounts):
                 collectedAmounts.pop()
                 shippingFees.pop()
@@ -61,7 +60,11 @@ class Payment:
                 } for packageNumber, amount, shippingFee in zip(packagesNumbers, collectedAmounts, shippingFees)
             ]
             
-            packages = list(filter(lambda package: package["shippingFee"] != 0, packages))
+            # packages = list(filter(lambda package: package["shippingFee"] != 0, packages))
+            
+            print(packages)
+            
+            return
 
             for package in packages:
                 if package["number"] not in history:
@@ -90,6 +93,7 @@ class Payment:
             HandleJsonFiles.edit(history, "history/shipmentsHistory")
             
         except Exception as exception:
+            print(exception)
             self.logs["hasError"] = True
             self.logs["content"]["ERROR"] = f"{exception},'\nerror line: ',{sys.exc_info()[-1].tb_lineno}"
             
