@@ -5258,5 +5258,25 @@
         "deliveryCompany": "Tawssil",
         "delivery_type": "Normal",
         "remark": "ATTENTION : Produits Fragiles"
+    },
+    "6865843474": {
+        "id": "232332",
+        "store": "Parapharma",
+        "created": "2025-10-02",
+        "shipped": "2025-10-02",
+        "delivered": "",
+        "period": "",
+        "delay": "",
+        "name": "Joanne Cayla",
+        "address": "18 rue Jarir, Allal Ben abdallah, r\u00e9sidence Youssef, appartement 8",
+        "city": "fes",
+        "phone1": "0751870691",
+        "phone2": "0751870691",
+        "total": 380,
+        "status": "SHIPPED",
+        "last_status": "",
+        "deliveryCompany": "Tawssil",
+        "delivery_type": "Normal",
+        "remark": "ATTENTION : Produits Fragiles"
     }
 }
