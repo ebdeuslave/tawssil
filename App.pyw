@@ -463,10 +463,7 @@ class TawssilApp(Tk):
         if set_payment["hasError"]:
             return msg.showerror("Payment", set_payment["content"]["ERROR"])
         
-        if set_payment["hasWarning"]:
-            msg.showwarning("Payment Warning", "Check logs")
-            os.system(f"notepad.exe {BASE_DIR}/logs/payment_logs.txt")
-            
+        
         add_payment = payment.add()
         if add_payment["hasError"]:
             msg.showwarning("Payment Error", add_payment["content"])
@@ -475,6 +472,11 @@ class TawssilApp(Tk):
         ws.Beep(500,500)
         # push to github
         autoPush(".", "backup shipments history")
+        
+        if set_payment["hasWarning"]:
+            if msg.askokcancel("Payment Warning", "Open logs?"):
+                os.system(f"notepad.exe {BASE_DIR}/logs/payment_logs.txt")
+            
         
 
     def updateOrdersStatus(self):
