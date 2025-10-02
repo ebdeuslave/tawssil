@@ -445,8 +445,8 @@ class TawssilApp(Tk):
                     autoPush(".", "backup shipments history")
                     
                     if set_payment["hasWarning"]:
-                        msg.showwarning("Payment Warning", "Check logs")
-                        os.system(f"notepad.exe {BASE_DIR}/logs/payment_logs.txt")
+                        if msg.askokcancel("Payment Warning", "Open logs?"):
+                            os.system(f"notepad.exe {BASE_DIR}/logs/payment_logs.txt")
             
         except Exception as exception:
             msg.showerror("Payment Error", f"{exception},'\nerror line: ',{sys.exc_info()[-1].tb_lineno}")
