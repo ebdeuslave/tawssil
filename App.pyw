@@ -478,7 +478,6 @@ class TawssilApp(Tk):
                 os.system(f"notepad.exe {BASE_DIR}/logs/payment_logs.txt")
             
         
-
     def updateOrdersStatus(self):
         self.tools_menu.entryconfig(0, state="disabled")
         orders = HandleJsonFiles.read(self.json_files['orders'])
