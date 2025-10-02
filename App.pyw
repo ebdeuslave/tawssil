@@ -399,12 +399,10 @@ class TawssilApp(Tk):
         self.autoSetPaymentBtn.config(state="disabled")
         try:
             emptyDirectory("attachements")
-            autoPush(".", "backup shipments history")
 
             data = {
                 "sender": "wijdane.fares@tawssil.ma",
                 "subject": "état de paiement global.",
-                # "filename": "Parapharmacie-AIH état de paiement MBS global du Mois Septembre.xlsx",
                 "maxResult": 20
             }
 
@@ -443,6 +441,7 @@ class TawssilApp(Tk):
                     ws.Beep(500,500)
                     
                     # push to github
+                    os.chdir(BASE_DIR)
                     autoPush(".", "backup shipments history")
                     
                     if set_payment["hasWarning"]:
