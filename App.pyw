@@ -399,6 +399,7 @@ class TawssilApp(Tk):
         self.autoSetPaymentBtn.config(state="disabled")
         try:
             emptyDirectory("attachements")
+            autoPush(".", "backup shipments history")
 
             data = {
                 "sender": "wijdane.fares@tawssil.ma",
