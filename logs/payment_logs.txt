@@ -1,0 +1,2 @@
+{"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-09-24", "TRANSFERED_AMOUNT": 20653, "PAID": 76, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
+

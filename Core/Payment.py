@@ -1,11 +1,9 @@
 import pandas as pd
-from .HandleJsonFiles import HandleJsonFiles
-from datetime import datetime
-import sys, re
+import sys
 sys.path.append("../Tawssil")
-from configuration import MAX_SHIPPING_FEE, TAX_FEE, TAWSSIL_ID
+from Core.HandleJsonFiles import HandleJsonFiles
+from configuration import MAX_SHIPPING_FEE, TAWSSIL_ID
 from Http.ParaAPI import ParaApi
-
 
 
 class Payment:
@@ -31,18 +29,14 @@ class Payment:
         """
         try:
             df = pd.read_excel(file)
+            df = df.fillna(0) # replace NaN with 0
                                                     
-            self.logs["content"]["TRANSFER_DATE"] = df["Date de virement "][0] #datetime.strptime(df["Date de virement"][0], "%d %B %Y").strftime("%Y-%m-%d")
+            self.logs["content"]["TRANSFER_DATE"] = str(df["Date de virement "][0])[:10]
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
-            packagesNumbers = [str(packageNumber) for packageNumber in df["Référence colis"]]
-
-            collectedAmounts = [amount for amount in df["CRBT"] if type(amount) == int]
-            
-            for amount in collectedAmounts:
-                if not amount: amount = 0
-            
+            packagesNumbers = [str(int(packageNumber)) for packageNumber in df["Référence colis"] if packageNumber != 0]
+            collectedAmounts = [int(amount) for amount in df["CRBT"]]
             shippingFees = [shippingFees for shippingFees in df["Frais"]]
             
             # remove total amounts
@@ -60,14 +54,11 @@ class Payment:
                 } for packageNumber, amount, shippingFee in zip(packagesNumbers, collectedAmounts, shippingFees)
             ]
             
-            # packages = list(filter(lambda package: package["shippingFee"] != 0, packages))
+            packages = list(filter(lambda package: package["shippingFee"] != 0, packages))
             
-            print(packages)
-            
-            return
-
             for package in packages:
                 if package["number"] not in history:
+                    self.logs["hasWarning"] = True
                     self.logs["content"]["NOT_FOUND"].append(package["number"])
                 else: 
                     original_amount = history[package["number"]]["total"]
@@ -121,6 +112,3 @@ class Payment:
                 "content": f"{exception},'\nerror line: ',{sys.exc_info()[-1].tb_lineno}"
                 }
                 
-            
-
-        
