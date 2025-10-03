@@ -772,7 +772,7 @@ class TawssilApp(Tk):
                 if not Formatter.phone(newPhone):
                     return msg.showerror("Validation", f"Invalid phone <{newPhone}>")
                 
-                newData["phone"] = newPhone
+                newData["recipient_phone"] = newPhone
                 
             if newAmount: newData["cash_on_delivery"] = int(newAmount)
             
@@ -781,8 +781,8 @@ class TawssilApp(Tk):
             if response["hasError"]:
                 return msg.showerror("Update Package Error", response["content"])
             
-            history[packageNumber]["phone1"] = newPhone
-            history[packageNumber]["total"] = int(newAmount)
+            if newPhone: history[packageNumber]["phone1"] = newPhone
+            if newAmount: history[packageNumber]["total"] = int(newAmount)
             
             HandleJsonFiles.edit(history, "history/shipmentsHistory") 
                     
