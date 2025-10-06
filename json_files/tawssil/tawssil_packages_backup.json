@@ -1,5 +1,1977 @@
 [
     {
+        "id": 6074690,
+        "name": "Colis/6090796",
+        "barcode": "#81209685F420#",
+        "partner_barcode": "5411591676",
+        "ref_colis": "5411591676",
+        "create_date": "2025-10-06 12:52:41",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Siham Mahis",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            42,
+            "Tamaris"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 499.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073487,
+        "name": "Colis/6089582",
+        "barcode": "#8128ADB933D2#",
+        "partner_barcode": "9012149764",
+        "ref_colis": "9012149764",
+        "create_date": "2025-10-06 11:21:45",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Parapharma",
+        "ship_from_city": [
+            19441,
+            "KHOURIBGA"
+        ],
+        "ship_to_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 0.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073479,
+        "name": "Colis/6089574",
+        "barcode": "#812784A60CE1#",
+        "partner_barcode": "8430721704",
+        "ref_colis": "8430721704",
+        "create_date": "2025-10-06 11:21:14",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "client",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19441,
+            "KHOURIBGA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 8.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073439,
+        "name": "Colis/6089534",
+        "barcode": "#812D6EFF7C90#",
+        "partner_barcode": "9248925522",
+        "ref_colis": "9248925522",
+        "create_date": "2025-10-06 11:18:52",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Acachrafhraf mohcine achraf",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 180.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073433,
+        "name": "Colis/6089528",
+        "barcode": "#81283CCC8949#",
+        "partner_barcode": "1409019580",
+        "ref_colis": "1409019580",
+        "create_date": "2025-10-06 11:18:33",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Laïla Majdi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 210.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073425,
+        "name": "Colis/6089520",
+        "barcode": "#812782F14BE8#",
+        "partner_barcode": "7298127399",
+        "ref_colis": "7298127399",
+        "create_date": "2025-10-06 11:18:01",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Naima Karboub",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 145.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073393,
+        "name": "Colis/6089488",
+        "barcode": "#812C60E9BCA9#",
+        "partner_barcode": "1902661424",
+        "ref_colis": "1902661424",
+        "create_date": "2025-10-06 11:16:06",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Rachid  Rachid ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 118.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073387,
+        "name": "Colis/6089482",
+        "barcode": "#812E1F9AE85A#",
+        "partner_barcode": "5392049158",
+        "ref_colis": "5392049158",
+        "create_date": "2025-10-06 11:15:45",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sabrine Haydar",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 220.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073380,
+        "name": "Colis/6089475",
+        "barcode": "#8129CF6746FA#",
+        "partner_barcode": "7243530899",
+        "ref_colis": "7243530899",
+        "create_date": "2025-10-06 11:15:17",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "FATIMA zahra",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 372.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073341,
+        "name": "Colis/6089436",
+        "barcode": "#812D7ACE7A7F#",
+        "partner_barcode": "2067804258",
+        "ref_colis": "2067804258",
+        "create_date": "2025-10-06 11:13:28",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Manal Belaoufir",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19584,
+            "Sala Al Jadida"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 238.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073332,
+        "name": "Colis/6089427",
+        "barcode": "#812E0146AF42#",
+        "partner_barcode": "9798624519",
+        "ref_colis": "9798624519",
+        "create_date": "2025-10-06 11:13:05",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "AMINE Quouninich",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19781,
+            "SIDI SLIMANE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 508.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073318,
+        "name": "Colis/6089413",
+        "barcode": "#812BDFDA1E40#",
+        "partner_barcode": "2463895723",
+        "ref_colis": "2463895723",
+        "create_date": "2025-10-06 11:12:11",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nezha Nezha",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 120.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073302,
+        "name": "Colis/6089397",
+        "barcode": "#81210ABD897B#",
+        "partner_barcode": "7905849929",
+        "ref_colis": "7905849929",
+        "create_date": "2025-10-06 11:11:13",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Liubna Baa",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19441,
+            "KHOURIBGA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 270.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6073296,
+        "name": "Colis/6089391",
+        "barcode": "#8120E4B693EC#",
+        "partner_barcode": "1356263690",
+        "ref_colis": "1356263690",
+        "create_date": "2025-10-06 11:10:52",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Chaymae ouadi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19245,
+            "BNI ANSAR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 349.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072988,
+        "name": "Colis/6089083",
+        "barcode": "#812E563934F2#",
+        "partner_barcode": "9492057511",
+        "ref_colis": "9492057511",
+        "create_date": "2025-10-06 10:47:32",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ali Ben",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19386,
+            "IFRAN"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 217.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072984,
+        "name": "Colis/6089079",
+        "barcode": "#8122CEA7046C#",
+        "partner_barcode": "1806968979",
+        "ref_colis": "1806968979",
+        "create_date": "2025-10-06 10:46:54",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abdelhafid Legsayer",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 199.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072980,
+        "name": "Colis/6089075",
+        "barcode": "#812EE5D0E11D#",
+        "partner_barcode": "2269281536",
+        "ref_colis": "2269281536",
+        "create_date": "2025-10-06 10:46:31",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ايمان حجاجي",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19719,
+            "TIFLET"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 171.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072974,
+        "name": "Colis/6089069",
+        "barcode": "#812FE87CDA23#",
+        "partner_barcode": "6588801808",
+        "ref_colis": "6588801808",
+        "create_date": "2025-10-06 10:46:07",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Fatima zahra MOUHSSINE",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 297.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072968,
+        "name": "Colis/6089063",
+        "barcode": "#812BC1A5FD0C#",
+        "partner_barcode": "8350377818",
+        "ref_colis": "8350377818",
+        "create_date": "2025-10-06 10:45:38",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "abdelilah behri",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19430,
+            "KENITRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 170.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072965,
+        "name": "Colis/6089060",
+        "barcode": "#8122C8F9A6EE#",
+        "partner_barcode": "2540913887",
+        "ref_colis": "2540913887",
+        "create_date": "2025-10-06 10:45:12",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ilham  Elmasoudi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 356.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072959,
+        "name": "Colis/6089054",
+        "barcode": "#812EF54743FB#",
+        "partner_barcode": "1942619383",
+        "ref_colis": "1942619383",
+        "create_date": "2025-10-06 10:44:46",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Odela  Sei",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19715,
+            "TEMARA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072951,
+        "name": "Colis/6089046",
+        "barcode": "#812D30CEEDBC#",
+        "partner_barcode": "4318677457",
+        "ref_colis": "4318677457",
+        "create_date": "2025-10-06 10:44:17",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mehdi  Tazi ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19276,
+            "BOUSKOURA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 184.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072937,
+        "name": "Colis/6089032",
+        "barcode": "#8124CDC7F196#",
+        "partner_barcode": "6797840929",
+        "ref_colis": "6797840929",
+        "create_date": "2025-10-06 10:43:18",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abderrahmane Benzakri",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19634,
+            "SIDI KACEM"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 410.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072930,
+        "name": "Colis/6089025",
+        "barcode": "#81237F563130#",
+        "partner_barcode": "8239571021",
+        "ref_colis": "8239571021",
+        "create_date": "2025-10-06 10:42:49",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sanaa Tarhzout",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 546.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072925,
+        "name": "Colis/6089020",
+        "barcode": "#812B9B3381ED#",
+        "partner_barcode": "7743944992",
+        "ref_colis": "7743944992",
+        "create_date": "2025-10-06 10:42:27",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "جميلة  حمداوي",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19326,
+            "ELHAJEB"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 339.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072916,
+        "name": "Colis/6089011",
+        "barcode": "#8122CBAFA0C7#",
+        "partner_barcode": "3035033910",
+        "ref_colis": "3035033910",
+        "create_date": "2025-10-06 10:42:02",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Meriem Touires",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 852.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072910,
+        "name": "Colis/6089005",
+        "barcode": "#8126E8235327#",
+        "partner_barcode": "1976062554",
+        "ref_colis": "1976062554",
+        "create_date": "2025-10-06 10:41:33",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nour alhoda Dia",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19780,
+            "GUELMIM"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 602.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072907,
+        "name": "Colis/6089002",
+        "barcode": "#812121BDE60D#",
+        "partner_barcode": "1589327750",
+        "ref_colis": "1589327750",
+        "create_date": "2025-10-06 10:41:09",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Hicham Hicham",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19441,
+            "KHOURIBGA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 362.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072899,
+        "name": "Colis/6088994",
+        "barcode": "#8120DF24E168#",
+        "partner_barcode": "9430416644",
+        "ref_colis": "9430416644",
+        "create_date": "2025-10-06 10:40:36",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Hakima Hakima",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19784,
+            "TAMESNA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 325.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072890,
+        "name": "Colis/6088985",
+        "barcode": "#812AD690A1FC#",
+        "partner_barcode": "5329930162",
+        "ref_colis": "5329930162",
+        "create_date": "2025-10-06 10:40:13",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "El kbabty  Khadija",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 326.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6072884,
+        "name": "Colis/6088979",
+        "barcode": "#812726AC1C76#",
+        "partner_barcode": "8617389283",
+        "ref_colis": "8617389283",
+        "create_date": "2025-10-06 10:39:50",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mohammed BOUAZIZ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 297.0,
+        "is_crbt_client_paid": false,
+        "state": "draft",
+        "statut": false,
+        "return_reason": false
+    },
+    {
+        "id": 6059654,
+        "name": "Colis/6075687",
+        "barcode": "#812C1168DEC9#",
+        "partner_barcode": "4542567318",
+        "ref_colis": "4542567318",
+        "create_date": "2025-10-03 13:54:22",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ahlam Ahlam",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19781,
+            "SIDI SLIMANE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 286.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059498,
+        "name": "Colis/6075531",
+        "barcode": "#81290FBFDC4C#",
+        "partner_barcode": "5781145124",
+        "ref_colis": "5781145124",
+        "create_date": "2025-10-03 13:37:36",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "imane el maski",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 120.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Num tél incorrect"
+    },
+    {
+        "id": 6059496,
+        "name": "Colis/6075529",
+        "barcode": "#812F08A83220#",
+        "partner_barcode": "1214266231",
+        "ref_colis": "1214266231",
+        "create_date": "2025-10-03 13:37:07",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Liliane Zoula",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 346.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Refusé par le client"
+    },
+    {
+        "id": 6059491,
+        "name": "Colis/6075524",
+        "barcode": "#8128CD4AA74D#",
+        "partner_barcode": "1990457534",
+        "ref_colis": "1990457534",
+        "create_date": "2025-10-03 13:36:44",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ILHAM  CHAAB",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19805,
+            "EL JADIDA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 529.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059488,
+        "name": "Colis/6075521",
+        "barcode": "#812FF741B284#",
+        "partner_barcode": "4154292450",
+        "ref_colis": "4154292450",
+        "create_date": "2025-10-03 13:36:24",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Kaoutar Elmajdoub",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19698,
+            "TANGER"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 338.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059487,
+        "name": "Colis/6075520",
+        "barcode": "#812AC873AE9E#",
+        "partner_barcode": "1799783384",
+        "ref_colis": "1799783384",
+        "create_date": "2025-10-03 13:36:06",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "INTISSAR Belrhali",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19634,
+            "SIDI KACEM"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 605.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6059485,
+        "name": "Colis/6075518",
+        "barcode": "#8123462C61F8#",
+        "partner_barcode": "7335608407",
+        "ref_colis": "7335608407",
+        "create_date": "2025-10-03 13:35:51",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "soukaina soukaina",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19158,
+            "AIN TAOUJTATE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059474,
+        "name": "Colis/6075507",
+        "barcode": "#812600B35C04#",
+        "partner_barcode": "4089152696",
+        "ref_colis": "4089152696",
+        "create_date": "2025-10-03 13:33:23",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nada Akhlef",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19717,
+            "TETOUAN  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 199.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6059473,
+        "name": "Colis/6075506",
+        "barcode": "#812E11FD2FAF#",
+        "partner_barcode": "8440834239",
+        "ref_colis": "8440834239",
+        "create_date": "2025-10-03 13:33:05",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sana Salahi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19466,
+            "MARRAKECH"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 389.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059472,
+        "name": "Colis/6075505",
+        "barcode": "#812D5DBC437F#",
+        "partner_barcode": "8752507633",
+        "ref_colis": "8752507633",
+        "create_date": "2025-10-03 13:32:38",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Nouhaila Touzani",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 138.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059469,
+        "name": "Colis/6075502",
+        "barcode": "#81258D2FCC41#",
+        "partner_barcode": "3640042971",
+        "ref_colis": "3640042971",
+        "create_date": "2025-10-03 13:32:08",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "oussama aissaoui",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19430,
+            "KENITRA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 279.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059467,
+        "name": "Colis/6075500",
+        "barcode": "#81283B551D33#",
+        "partner_barcode": "1378235745",
+        "ref_colis": "1378235745",
+        "create_date": "2025-10-03 13:31:49",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Lakbira  Khalfi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19493,
+            "MOHAMMEDIA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 169.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059463,
+        "name": "Colis/6075496",
+        "barcode": "#8128A8583701#",
+        "partner_barcode": "4085148189",
+        "ref_colis": "4085148189",
+        "create_date": "2025-10-03 13:31:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Lamya BELMAATI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19276,
+            "BOUSKOURA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 370.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6059459,
+        "name": "Colis/6075492",
+        "barcode": "#81280A6AD40B#",
+        "partner_barcode": "7600578070",
+        "ref_colis": "7600578070",
+        "create_date": "2025-10-03 13:30:45",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Aya Asma",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 181.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6059441,
+        "name": "Colis/6075474",
+        "barcode": "#8121341FEB50#",
+        "partner_barcode": "3556618602",
+        "ref_colis": "3556618602",
+        "create_date": "2025-10-03 13:28:31",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Asmae El mir",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19294,
+            "DAKHLA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 25.0,
+        "cod": 1633.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": false
+    },
+    {
+        "id": 6059393,
+        "name": "Colis/6075426",
+        "barcode": "#81283E31ACF4#",
+        "partner_barcode": "2522818911",
+        "ref_colis": "2522818911",
+        "create_date": "2025-10-03 13:20:23",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Abdelfatah  Hadioui ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19709,
+            "TAZARINE  "
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 188.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Zone non desservie"
+    },
+    {
+        "id": 6059387,
+        "name": "Colis/6075420",
+        "barcode": "#812C81076DB2#",
+        "partner_barcode": "2243198617",
+        "ref_colis": "2243198617",
+        "create_date": "2025-10-03 13:19:34",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Lachhab Yasmine",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 233.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059385,
+        "name": "Colis/6075418",
+        "barcode": "#812B1CF3FAFC#",
+        "partner_barcode": "7327018177",
+        "ref_colis": "7327018177",
+        "create_date": "2025-10-03 13:19:15",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "hanane hanane",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19806,
+            "SAFI"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 130.0,
+        "is_crbt_client_paid": false,
+        "state": "athub",
+        "statut": "Réception au HUB",
+        "return_reason": "Report de livraison sur demande du destinataire"
+    },
+    {
+        "id": 6059332,
+        "name": "Colis/6075365",
+        "barcode": "#812182DC819D#",
+        "partner_barcode": "9893829556",
+        "ref_colis": "9893829556",
+        "create_date": "2025-10-03 13:03:45",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sakshi Narang",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19805,
+            "EL JADIDA"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 1105.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059328,
+        "name": "Colis/6075361",
+        "barcode": "#81263E435C09#",
+        "partner_barcode": "7299174494",
+        "ref_colis": "7299174494",
+        "create_date": "2025-10-03 13:03:02",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Kaoutar Oubelaid",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19128,
+            "AGADIR"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 540.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059327,
+        "name": "Colis/6075360",
+        "barcode": "#812EAFCA8BE1#",
+        "partner_barcode": "9395656495",
+        "ref_colis": "9395656495",
+        "create_date": "2025-10-03 13:02:39",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sanaa Mhal",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19776,
+            "SALE"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 1254.0,
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059317,
+        "name": "Colis/6075350",
+        "barcode": "#8125F4458D9A#",
+        "partner_barcode": "9546722797",
+        "ref_colis": "9546722797",
+        "create_date": "2025-10-03 13:00:21",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Ismail  Nadir ",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 602.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059309,
+        "name": "Colis/6075342",
+        "barcode": "#8126DA87B730#",
+        "partner_barcode": "1416342285",
+        "ref_colis": "1416342285",
+        "create_date": "2025-10-03 12:59:04",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Lamiae Lole",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19572,
+            "RABAT"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 598.0,
+        "is_crbt_client_paid": false,
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
+        "return_reason": "Destinataire Injoignable"
+    },
+    {
+        "id": 6059307,
+        "name": "Colis/6075340",
+        "barcode": "#812E23580C2E#",
+        "partner_barcode": "2186561551",
+        "ref_colis": "2186561551",
+        "create_date": "2025-10-03 12:58:44",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Sanaa Chichi",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 800.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059305,
+        "name": "Colis/6075338",
+        "barcode": "#812DEB944193#",
+        "partner_barcode": "7030378564",
+        "ref_colis": "7030378564",
+        "create_date": "2025-10-03 12:58:15",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "ASSIA HALLAOUI",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 622.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059303,
+        "name": "Colis/6075336",
+        "barcode": "#8129875AE1A5#",
+        "partner_barcode": "3645184072",
+        "ref_colis": "3645184072",
+        "create_date": "2025-10-03 12:57:52",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mohammed Hammani",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19698,
+            "TANGER"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 295.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
+        "id": 6059300,
+        "name": "Colis/6075333",
+        "barcode": "#81213045EE7A#",
+        "partner_barcode": "4131016216",
+        "ref_colis": "4131016216",
+        "create_date": "2025-10-03 12:56:30",
+        "partner_id": [
+            281956,
+            "Parapharmacie-AIH"
+        ],
+        "child_name": "Mohamed El kirat",
+        "ship_from_city": [
+            19812,
+            "CASABLANCA"
+        ],
+        "ship_to_city": [
+            19351,
+            "FES"
+        ],
+        "shipment_type": "home_delivery",
+        "currency_id": [
+            112,
+            "MAD"
+        ],
+        "is_return": false,
+        "partner_type": "customer",
+        "fees": 20.0,
+        "cod": 708.0,
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": false
+    },
+    {
         "id": 6055214,
         "name": "Colis/6071238",
         "barcode": "#812AC3C70E94#",
@@ -28,9 +2000,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 380.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -62,7 +2034,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 130.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -130,9 +2102,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 338.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -164,9 +2136,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 120.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -198,9 +2170,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 560.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -232,10 +2204,10 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 207.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
-        "return_reason": false
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
         "id": 6054889,
@@ -266,9 +2238,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 479.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -300,9 +2272,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 145.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -334,9 +2306,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 338.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -368,9 +2340,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 250.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -402,9 +2374,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 259.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -436,10 +2408,10 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 135.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
-        "return_reason": false
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Destinataire Injoignable"
     },
     {
         "id": 6054874,
@@ -470,7 +2442,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 324.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -504,9 +2476,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 179.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -538,9 +2510,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 219.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -572,9 +2544,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 633.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -608,8 +2580,8 @@
         "cod": 130.0,
         "is_crbt_client_paid": false,
         "state": "outfordelivery",
-        "statut": "Mis en Livraison",
-        "return_reason": false
+        "statut": "Echec livraison",
+        "return_reason": "Destinataire Injoignable"
     },
     {
         "id": 6054856,
@@ -640,9 +2612,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 607.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -674,9 +2646,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 239.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -709,8 +2681,8 @@
         "fees": 25.0,
         "cod": 184.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "state": "outfordelivery",
+        "statut": "Mis en Livraison",
         "return_reason": false
     },
     {
@@ -745,7 +2717,7 @@
         "is_crbt_client_paid": false,
         "state": "outfordelivery",
         "statut": "Mis en Livraison",
-        "return_reason": false
+        "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
         "id": 6054848,
@@ -776,9 +2748,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 392.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -810,9 +2782,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 257.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -844,9 +2816,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 620.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -878,9 +2850,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 193.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -912,9 +2884,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 179.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -946,9 +2918,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 1002.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -980,9 +2952,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 1391.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1014,9 +2986,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 698.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1048,10 +3020,10 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 368.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
-        "return_reason": false
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
+        "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
         "id": 6054803,
@@ -1082,7 +3054,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 828.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1116,9 +3088,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 737.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1153,7 +3125,7 @@
         "is_crbt_client_paid": false,
         "state": "athub",
         "statut": "Réception au HUB",
-        "return_reason": "Reprogrammation livraison"
+        "return_reason": "Destinataire Injoignable"
     },
     {
         "id": 6049952,
@@ -1218,7 +3190,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 509.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1252,9 +3224,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 567.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -1286,7 +3258,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 517.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1320,7 +3292,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 269.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1388,9 +3360,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 491.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -1422,7 +3394,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 219.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1456,9 +3428,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 131.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1490,7 +3462,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 995.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1524,9 +3496,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 339.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1558,9 +3530,9 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 255.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1592,7 +3564,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 762.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1626,7 +3598,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 230.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1660,9 +3632,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 546.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -1728,9 +3700,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 378.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -1762,7 +3734,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 804.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1864,7 +3836,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 264.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -1898,9 +3870,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 439.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
     },
     {
@@ -2000,7 +3972,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 695.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2034,9 +4006,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 120.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -2068,7 +4040,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 1626.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
@@ -2170,7 +4142,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 188.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2204,7 +4176,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 147.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2238,9 +4210,9 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 1870.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -2306,9 +4278,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 260.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Réçu en PR",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Reprogrammation livraison"
     },
     {
@@ -2340,7 +4312,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 131.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2544,9 +4516,9 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 412.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -2714,7 +4686,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 145.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2782,7 +4754,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 214.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -2850,9 +4822,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 155.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -2918,9 +4890,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 183.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Réçu en PR",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
     },
     {
@@ -2986,9 +4958,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 136.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
     },
     {
@@ -3020,7 +4992,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 321.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
@@ -3088,7 +5060,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 315.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
@@ -3292,7 +5264,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 324.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
@@ -3326,9 +5298,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 481.0,
-        "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -3360,7 +5332,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 479.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
@@ -3496,9 +5468,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 428.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
     },
     {
@@ -3530,7 +5502,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 800.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Reprogrammation livraison"
@@ -3700,7 +5672,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 640.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Report de livraison sur demande du destinataire"
@@ -3735,8 +5707,8 @@
         "fees": 20.0,
         "cod": 0.0,
         "is_crbt_client_paid": false,
-        "state": "outfordelivery",
-        "statut": "Mis en Livraison",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": false
     },
     {
@@ -4244,7 +6216,7 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 1277.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -4550,7 +6522,7 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 275.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": "Destinataire Injoignable"
@@ -4687,8 +6659,8 @@
         "fees": 20.0,
         "cod": 131.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Refusé par le client"
     },
     {
@@ -5332,7 +7304,7 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 219.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -5740,7 +7712,7 @@
         "partner_type": "customer",
         "fees": 25.0,
         "cod": 489.0,
-        "is_crbt_client_paid": "not_paid",
+        "is_crbt_client_paid": "paid",
         "state": "delivered",
         "statut": "Livré",
         "return_reason": false
@@ -6590,9 +8562,9 @@
         "partner_type": "customer",
         "fees": 20.0,
         "cod": 235.0,
-        "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "Réception au HUB",
+        "is_crbt_client_paid": "not_paid",
+        "state": "delivered",
+        "statut": "Livré",
         "return_reason": "Zone non desservie"
     },
     {
@@ -6965,8 +8937,8 @@
         "fees": 20.0,
         "cod": 123.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Refusé par le client"
     },
     {
@@ -7407,8 +9379,8 @@
         "fees": 20.0,
         "cod": 164.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Destinataire Injoignable"
     },
     {
@@ -7883,8 +9855,8 @@
         "fees": 20.0,
         "cod": 183.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Client pas sérieux"
     },
     {
@@ -8019,8 +9991,8 @@
         "fees": 20.0,
         "cod": 718.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Refusé par le client"
     },
     {
@@ -8563,8 +10535,8 @@
         "fees": 20.0,
         "cod": 200.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Destinataire Injoignable"
     },
     {
@@ -8869,8 +10841,8 @@
         "fees": 20.0,
         "cod": 140.0,
         "is_crbt_client_paid": false,
-        "state": "athub",
-        "statut": "En transport",
+        "state": "returned",
+        "statut": "Retourné",
         "return_reason": "Destinataire Injoignable"
     },
     {
