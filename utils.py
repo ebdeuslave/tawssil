@@ -53,7 +53,7 @@ def addToLogs(data:dict):
     
     
 def generate_reference() -> str:    
-    from Core.HandleJsonFiles import HandleJsonFiles
+    from Core import HandleJsonFiles
     while 1:
         ref = ''.join(str(random.randint(0, 9)) for _ in range(10))
         

@@ -1,6 +1,6 @@
 import requests
 
-class ParaApi:
+class ParaAPI:
     """
     Connection to Para web apps
     """

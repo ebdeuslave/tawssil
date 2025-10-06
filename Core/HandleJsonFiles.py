@@ -1,6 +1,5 @@
 import json, os, sys
 sys.path.insert(0, '../Tawssil')
-
 from utils import BASE_DIR
 
 class HandleJsonFiles:

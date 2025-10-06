@@ -1,9 +1,9 @@
 import pandas as pd
 import sys
+from Core import HandleJsonFiles
 sys.path.append("../Tawssil")
-from Core.HandleJsonFiles import HandleJsonFiles
 from configuration import MAX_SHIPPING_FEE, TAWSSIL_ID
-from Http.ParaAPI import ParaApi
+from Http import ParaAPI
 
 
 class Payment:
@@ -98,7 +98,7 @@ class Payment:
         if not self.data:
             return {"hasError": True, "content": "data is empty"}
         
-        response = ParaApi.add_payment(self.data)
+        response = ParaAPI.add_payment(self.data)
 
         try:
             if not response.json()["created"]:

@@ -6,16 +6,8 @@ from threading import Thread
 from pathlib import Path
 from utils import *
 from configuration import *
-from Http.ParaAPI import ParaApi
-from Http.TawssilAPI import TawssilAPI
-from Http.PrestashopAPI import PrestashopAPI
-from Http.GmailAPI import GmailAPI
-from Core.HandleJsonFiles import HandleJsonFiles
-from Core.HandlePdfFiles import HandlePdfFiles
-from Core.Formatter import Formatter
-from Core.Checker import Checker
-from Core.Payment import Payment
-from Core.Settings import Settings
+from Http import PrestashopAPI, TawssilAPI, GmailAPI, ParaAPI
+from Core import HandleJsonFiles, HandlePdfFiles, Formatter, Checker, Payment, Settings
 import webbrowser
 from pushToGithub import autoPush
 
@@ -824,7 +816,7 @@ class TawssilApp(Tk):
             if not msg.askyesno("Refund", f"had cmd mamkhalsach en ligne, mt2kd baghi t ajouter remboursement ?"):
                 return
 
-        addRefund = ParaApi.add_refund(data)
+        addRefund = ParaAPI.add_refund(data)
 
         try:
             if not addRefund.json()["created"]:
