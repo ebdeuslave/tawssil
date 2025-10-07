@@ -580,7 +580,7 @@ class TawssilApp(Tk):
                     
                     # print labels when reaching total shipments in the settings (see json_files/settings.json)
                     if Settings.autoPrint() and Settings.totalToPrintAuto() == len(HandleJsonFiles.read(self.json_files['shipmentsNumbers'])):
-                        self.stateLabel.config(text="Printing...")
+                        self.download_label.config(text="Printing...")
                         Thread(target=self.printLabels, args=("auto",)).start()
 
                     self.stateLabel.config(text=f'{order_data["store"].title() if not order_data["store"].startswith("ww") else order_data["store"].title()[4:]}: N°{ORDER_ID}\n{order_data["name"]}\n{order_data["phone1"]}  {order_data["phone2"] if order_data["phone2"] != order_data["phone1"] else ""}\n{order_data["city"]}\n{order_data["total"]} DHs')
@@ -661,7 +661,7 @@ class TawssilApp(Tk):
                 ws.Beep(500,500)
                 # print labels when reaching total shipments in the settings (see json_files/settings.json)
                 if Settings.autoPrint() and Settings.totalToPrintAuto() == len(HandleJsonFiles.read(self.json_files['shipmentsNumbers'])):
-                    self.stateLabel.config(text="Printing...")
+                    self.download_label.config(text="Printing...")
                     Thread(target=self.printLabels, args=("auto",)).start()
 
                 self.stateLabel.config(text=f'{store}-Whatsapp\n{order_data["name"]}\n{order_data["phone1"]}\n{order_data["city"]}\n{order_data["total"]} DHs')
