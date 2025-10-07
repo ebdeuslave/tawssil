@@ -1,4 +1,3 @@
-{"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-09-24", "TRANSFERED_AMOUNT": 20653, "PAID": 76, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}{"hasError": true, "hasWarning": false, "content": {"ERROR": "'Date de virement ','\nerror line: ',34", "TRANSFER_DATE": null, "TRANSFERED_AMOUNT": 0, "PAID": 0, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
-
-{"hasError": false, "hasWarning": true, "content": {"ERROR": null, "TRANSFER_DATE": "2025-09-24", "TRANSFERED_AMOUNT": 24228, "PAID": 85, "NOT_SAME_AMOUNT": [], "NOT_FOUND": ["582322577"], "EXCEED_SHIPPING_FEES": []}}
+{"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-09-24", "TRANSFERED_AMOUNT": 24228, "PAID": 86, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
+{"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-07", "TRANSFERED_AMOUNT": 5843, "PAID": 21, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
 

@@ -1,5 +1,6 @@
 import pandas as pd
 import sys
+from datetime import date
 from Core import HandleJsonFiles
 sys.path.append("../Tawssil")
 from configuration import MAX_SHIPPING_FEE, TAWSSIL_ID
@@ -30,8 +31,8 @@ class Payment:
         try:
             df = pd.read_excel(file)
             df = df.fillna(0) # replace NaN with 0
-                                                    
-            self.logs["content"]["TRANSFER_DATE"] = str(df["Date de virement "][0])[:10]
+            try: self.logs["content"]["TRANSFER_DATE"] = str(df["Date de virement "][0])[:10]
+            except: self.logs["content"]["TRANSFER_DATE"] = str(date.today())
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
