@@ -5,3 +5,7 @@
 
 {"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-07", "TRANSFERED_AMOUNT": 8735, "PAID": 30, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
 
+{"hasError": true, "hasWarning": false, "content": {"ERROR": "'R\u00e9f\u00e9rence colis','\nerror line: ',39", "TRANSFER_DATE": "2025-10-08", "TRANSFERED_AMOUNT": 0, "PAID": 0, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
+
+{"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-08", "TRANSFERED_AMOUNT": 30647, "PAID": 76, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
+

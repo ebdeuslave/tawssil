@@ -36,7 +36,8 @@ class Payment:
                         
             history = HandleJsonFiles.read("history/shipmentsHistory")  
             
-            packagesNumbers = [str(int(packageNumber)) for packageNumber in df["Référence colis"] if packageNumber != 0]
+            try: packagesNumbers = [str(int(packageNumber)) for packageNumber in df["Référence colis"] if packageNumber != 0]
+            except: packagesNumbers = [str(int(packageNumber)) for packageNumber in df["Barcode partenaire"] if packageNumber != 0]
             collectedAmounts = [int(amount) for amount in df["CRBT"]]
             shippingFees = [shippingFees for shippingFees in df["Frais"]]
             
