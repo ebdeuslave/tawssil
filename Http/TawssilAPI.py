@@ -97,7 +97,7 @@ class TawssilAPI:
                 return {"hasError": True, "content": response.json()["result"]["errors"]}
             
             elif response.json()["result"]["result"] == "OK":
-                return {"hasError": False, "content": response.json()["result"]["data"][0]["parcel_reference"]}
+                return {"hasError": False, "content": response.json()["result"]["data"][0]}
             
             else:
                 return {"hasError": True, "content": response.json()}

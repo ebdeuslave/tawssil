@@ -567,7 +567,7 @@ class TawssilApp(Tk):
                 response = TawssilAPI.createPackage(order_data, order_data["delivery_type"])
 
                 if not response["hasError"]:
-                    shipmentNumber = response["content"]
+                    shipmentNumber = response["content"]["parcel_reference"]
 
                     HandleJsonFiles.saveToHistory(shipmentNumber ,order_data, ORDER_ID)
 
@@ -649,7 +649,7 @@ class TawssilApp(Tk):
             response = TawssilAPI.createPackage(order_data, order_data["delivery_type"])
         
             if not response["hasError"]:
-                shipmentNumber = response["content"]
+                shipmentNumber = response["content"]["parcel_reference"]
 
                 HandleJsonFiles.saveToHistory(shipmentNumber, order_data, f"cmd{self.getManualFields()['phone']}")
 
