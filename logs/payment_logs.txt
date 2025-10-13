@@ -14,3 +14,5 @@
 
 {"hasError": false, "hasWarning": true, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-09", "TRANSFERED_AMOUNT": 13650, "PAID": 46, "NOT_SAME_AMOUNT": [], "NOT_FOUND": ["2418286285"], "EXCEED_SHIPPING_FEES": []}}
 
+{"hasError": false, "hasWarning": true, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-10", "TRANSFERED_AMOUNT": 13760, "PAID": 75, "NOT_SAME_AMOUNT": [], "NOT_FOUND": ["2418286285"], "EXCEED_SHIPPING_FEES": []}}
+
