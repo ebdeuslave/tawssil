@@ -68,8 +68,9 @@ class Payment:
                         history[package["number"]]["last_status"] = f"PAID:{package['amount']}"
                         self.logs["hasWarning"] = True
                         self.logs["content"]["NOT_SAME_AMOUNT"].append({"packageNumber":package["number"], "originalAmount" : original_amount, "transferAmount": package["amount"]})
-                        
-                    history[package["number"]]["status"] = "PAID"
+                    
+                    if history[package["number"]]["delivery_type"] == "Normal":
+                        history[package["number"]]["status"] = "PAID"
                     self.logs["content"]["PAID"] += 1
                         
                     if package["shippingFee"] > MAX_SHIPPING_FEE:
