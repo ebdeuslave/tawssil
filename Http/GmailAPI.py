@@ -12,7 +12,7 @@ class GmailAPI:
 
     def downloadAttachement(self, data, downloadFolder):
         try:
-            results = ezgmail.search(f'from:{data["sender"]},subject:{data["subject"]}', maxResults=data["maxResult"]) 
+            results = ezgmail.search(f'from:{data["sender"]}', maxResults=data["maxResult"]) 
 
             index = 1
             total = 0

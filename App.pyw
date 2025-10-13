@@ -394,7 +394,7 @@ class TawssilApp(Tk):
 
             data = {
                 "sender": "wijdane.fares@tawssil.ma",
-                "subject": "état de paiement global.",
+                # "subject": "état de paiement global.",
                 "maxResult": 20
             }
 
