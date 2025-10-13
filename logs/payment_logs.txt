@@ -16,3 +16,7 @@
 
 {"hasError": false, "hasWarning": false, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-10", "TRANSFERED_AMOUNT": 13760, "PAID": 29, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
 
+{"hasError": true, "hasWarning": false, "content": {"ERROR": "[Errno 2] No such file or directory: 'Parapharmacie-AIH ETAT MBS 09102025.xlsx','\nerror line: ',32", "TRANSFER_DATE": null, "TRANSFERED_AMOUNT": 0, "PAID": 0, "NOT_SAME_AMOUNT": [], "NOT_FOUND": [], "EXCEED_SHIPPING_FEES": []}}
+
+{"hasError": false, "hasWarning": true, "content": {"ERROR": null, "TRANSFER_DATE": "2025-10-09", "TRANSFERED_AMOUNT": 13650, "PAID": 46, "NOT_SAME_AMOUNT": [], "NOT_FOUND": ["2418286285"], "EXCEED_SHIPPING_FEES": []}}
+

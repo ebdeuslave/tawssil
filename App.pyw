@@ -407,10 +407,9 @@ class TawssilApp(Tk):
             else:
                 # downloadAttachement method changed dir to attachements therefor the cwd is attachement/
                 files = os.listdir(os.getcwd())
-                files.reverse()
-                
+                # files.reverse()
+                payment = Payment()
                 for file in files:
-                    payment = Payment()
                     set_payment = payment.set(file)
                     
                     addToLogs(set_payment)
