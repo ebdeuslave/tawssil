@@ -410,7 +410,7 @@ class TawssilApp(Tk):
                 # files.reverse()
                 payment = Payment()
                 for file in files:
-                    set_payment = payment.set(file)
+                    set_payment = payment.set(f"{BASE_DIR}/attachements/{file}")
                     
                     addToLogs(set_payment)
                     
