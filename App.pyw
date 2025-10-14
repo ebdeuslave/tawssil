@@ -567,7 +567,8 @@ class TawssilApp(Tk):
 
                 if not response["hasError"]:
                     shipmentNumber = response["content"]["parcel_reference"]
-
+                    shipmentId = response["content"]["id"]
+                    order_data["package_id"] = shipmentId
                     HandleJsonFiles.saveToHistory(shipmentNumber ,order_data, ORDER_ID)
 
                     self.totalIDs.config(text=f"Total:  {len(HandleJsonFiles.read(self.json_files['orders']))}")
@@ -649,7 +650,8 @@ class TawssilApp(Tk):
         
             if not response["hasError"]:
                 shipmentNumber = response["content"]["parcel_reference"]
-
+                shipmentId = response["content"]["id"]
+                order_data["package_id"] = shipmentId
                 HandleJsonFiles.saveToHistory(shipmentNumber, order_data, f"cmd{self.getManualFields()['phone']}")
 
                 self.totalIDs.config(text=f"Total: {len(HandleJsonFiles.read(self.json_files['orders']))}")   
