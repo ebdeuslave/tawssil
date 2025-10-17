@@ -554,8 +554,8 @@ class TawssilApp(Tk):
                         return self.enableDisableWidgets([self.packageCreationFrame])
 
                 total_returned = Checker.total_returned(order_data["phone1"])
-                if total_returned:
-                    msg.showwarning("Warning", f"Client deja 3ndha {total_returned} cmd retour (ghadi dkhel baghi thaydha dir liha annuler)")
+                if total_returned > 2:
+                    msg.showwarning("Warning", f"Client deja 3ndha {total_returned} cmds retour (ghadi dkhel baghi thaydha dir liha annuler)")
                     webbrowser.open(f"http://livraison.horscasa:8010/shipments/history/{order_data['phone1']}")
                     
                 if order_data["delivery_type"] == "Return":
@@ -589,7 +589,6 @@ class TawssilApp(Tk):
 
                 elif response["content"] == "one or many of the cities provided are invalid":
                     msg.showerror("City Error", f"<{order_data['city']}> had lmdina ya imma makinach ya imma mamktobach mzn\nyla l9itiha ktebha manuel")
-                    webbrowser.open("http://livraison.horscasa:8010/tawssil_cities/")
                     self.stateLabel.config(text=f"invalid city <{order_data['city']}>")
                 else:
                     msg.showerror("Error", response["content"])
@@ -641,6 +640,11 @@ class TawssilApp(Tk):
                 'last_status' : "",
                 'remark': self.getManualFields()["remark"]
                 }
+            
+            total_returned = Checker.total_returned(order_data["phone1"])
+            if total_returned > 2:
+                msg.showwarning("Warning", f"Client deja 3ndha {total_returned} cmds retour (ghadi dkhel baghi thaydha dir liha annuler)")
+                webbrowser.open(f"http://livraison.horscasa:8010/shipments/history/{order_data['phone1']}")
                         
             if order_data["delivery_type"] == "Return":
                 order_data["total"] = 0
@@ -671,7 +675,6 @@ class TawssilApp(Tk):
             
             elif response["content"] == "one or many of the cities provided are invalid":
                 msg.showerror("City Error", f"<{order_data['city']}> had lmdina ya imma makinach ya imma mamktobach mzn")
-                webbrowser.open("http://livraison.horscasa:8010/tawssil_cities/")
                 self.stateLabel.config(text=f"invalid city <{order_data['city']}>")
                     
             else:
